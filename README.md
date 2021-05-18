@@ -5,7 +5,7 @@
 
 永久免费。免安装，无需设置，解压后使用。稳定、流畅、高速、不限流量，长期更新。
 
-![](./static/%E5%9B%BE%E6%A0%87.PNG)
+![](./static/图标.PNG)
 
 
 **介绍**：clash、v2ray、SSR、SS-plugin、SSROT、FreeGate，适合windows操作系统，比如：xp、win7、win8、win10系统。压缩包文件的格式是7z，如果解压出错，用7解压软件来解压（[7z解压软件下载地址](https://sparanoid.com/lab/7z/)）。

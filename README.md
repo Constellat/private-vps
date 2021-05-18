@@ -40,21 +40,21 @@
 
 [火狐翻墙浏览器](./火狐翻墙浏览器.md)（2021年4月17日更新集合版）
 
-[iOS翻墙方法](https://github.com/Alvin9999/new-pac/wiki/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)（2021年4月16日更新）
+[iOS翻墙方法](./苹果手机翻墙软件.md)（2021年4月16日更新）
 
 [iOS注册美区Apple ID教程](./iOS注册美区Apple-ID教程.md) (2020年3月14日发布)
 
 [安卓手机版](./安卓手机版.md)（2021年1月28日增加神州明见App）
 
-[Mac翻墙方法](https://github.com/Alvin9999/new-pac/wiki/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91MAC%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)（2020年11月1日增加Mac使用Wine运行Windows软件教程）
+[Mac翻墙方法](./苹果电脑MAC翻墙软件.md)（2020年11月1日增加Mac使用Wine运行Windows软件教程）
 
-[Linux系统翻墙方法](https://github.com/Alvin9999/new-pac/wiki/Linux%E7%B3%BB%E7%BB%9F%E7%BF%BB%E5%A2%99%E6%96%B9%E6%B3%95) （2020年11月1日增加Linux使用Wine运行Windows软件教程）
+[Linux系统翻墙方法](./Linux系统翻墙方法.md) （2020年11月1日增加Linux使用Wine运行Windows软件教程）
 
-[直翻通道](https://github.com/Alvin9999/new-pac/wiki/%E7%9B%B4%E7%BF%BB%E9%80%9A%E9%81%93) （2020年12月31日更新）
+[直翻通道](./直翻通道.md) （2020年12月31日更新）
 
-[谷歌镜像](https://github.com/Alvin9999/new-pac/wiki/%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F) （2020年6月27日更新）
+[谷歌镜像](./谷歌镜像.md) （2020年6月27日更新）
 
-[平板电脑翻墙方法](https://github.com/Alvin9999/new-pac/wiki/%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)（2020年2月23日更新）
+[平板电脑翻墙方法](./平板电脑翻墙软件.md)（2020年2月23日更新）
 
 [自建SS/SSR服务器教程](./自建ss服务器教程.md) （2021年3月22日更新高阶篇教程）
 
@@ -64,13 +64,13 @@
 
 [自建trojan服务器教程](./自建trojan服务器教程.md) （2020年10月15日增加域名购买教程）
 
-[自建WireGuard服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAWireGuard-VPN%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) （2020年3月8日更新创建多账号方法）
+[自建WireGuard服务器教程](./自建WireGuard-VPN服务器教程.md) （2020年3月8日更新创建多账号方法）
 
-[一键搭建科学上网工具ProxySU](https://github.com/Alvin9999/new-pac/wiki/%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7ProxySU) （2020年12月6日更新）
+[一键搭建科学上网工具ProxySU](./一键搭建科学上网工具ProxySU.md) （2020年12月6日更新）
 
-[路由器翻墙](https://github.com/Alvin9999/new-pac/wiki/%E8%B7%AF%E7%94%B1%E5%99%A8%E7%BF%BB%E5%A2%99) （2019年9月29日发布）
+[路由器翻墙](./路由器翻墙.md) （2019年9月29日发布）
 
-[YouTube下载1080教程](https://github.com/Alvin9999/new-pac/wiki/YouTube%E4%B8%8B%E8%BD%BD1080%E6%95%99%E7%A8%8B) （2020年2月29日更新）
+[YouTube下载1080教程](./YouTube下载1080教程.md) （2020年2月29日更新）
 
 ***
 

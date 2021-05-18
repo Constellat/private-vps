@@ -36,15 +36,15 @@
 
 [谷歌翻墙浏览器90高内核版](./高内核版.md) （2021年4月17日更新所有版本）
 
-[谷歌翻墙浏览器低内核版](https://github.com/Alvin9999/new-pac/wiki/%E4%BD%8E%E5%86%85%E6%A0%B8%E7%89%88) （2021年4月17日更新集合版）
+[谷歌翻墙浏览器低内核版](./低内核版.md) （2021年4月17日更新集合版）
 
-[火狐翻墙浏览器](https://github.com/Alvin9999/new-pac/wiki/%E7%81%AB%E7%8B%90%E7%BF%BB%E5%A2%99%E6%B5%8F%E8%A7%88%E5%99%A8)（2021年4月17日更新集合版）
+[火狐翻墙浏览器](./火狐翻墙浏览器.md)（2021年4月17日更新集合版）
 
 [iOS翻墙方法](https://github.com/Alvin9999/new-pac/wiki/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)（2021年4月16日更新）
 
-[iOS注册美区Apple ID教程](https://github.com/Alvin9999/new-pac/wiki/iOS%E6%B3%A8%E5%86%8C%E7%BE%8E%E5%8C%BAApple-ID%E6%95%99%E7%A8%8B) (2020年3月14日发布)
+[iOS注册美区Apple ID教程](./iOS注册美区Apple-ID教程.md) (2020年3月14日发布)
 
-[安卓手机版](https://github.com/Alvin9999/new-pac/wiki/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E7%89%88)（2021年1月28日增加神州明见App）
+[安卓手机版](./安卓手机版.md)（2021年1月28日增加神州明见App）
 
 [Mac翻墙方法](https://github.com/Alvin9999/new-pac/wiki/%E8%8B%B9%E6%9E%9C%E7%94%B5%E8%84%91MAC%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)（2020年11月1日增加Mac使用Wine运行Windows软件教程）
 
@@ -56,13 +56,13 @@
 
 [平板电脑翻墙方法](https://github.com/Alvin9999/new-pac/wiki/%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%84%91%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)（2020年2月23日更新）
 
-[自建SS/SSR服务器教程](./%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B.md) （2021年3月22日更新高阶篇教程）
+[自建SS/SSR服务器教程](./自建ss服务器教程.md) （2021年3月22日更新高阶篇教程）
 
-[自建v2ray服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAv2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) （2021年3月19日更新高阶篇教程）
+[自建v2ray服务器教程](./自建trojan服务器教程.md) （2021年3月19日更新高阶篇教程）
 
-[自建brook服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAbrook%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) （2020年9月8日更新安装方法）
+[自建brook服务器教程](./自建brook服务器教程.md) （2020年9月8日更新安装方法）
 
-[自建trojan服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAtrojan%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) （2020年10月15日增加域名购买教程）
+[自建trojan服务器教程](./自建trojan服务器教程.md) （2020年10月15日增加域名购买教程）
 
 [自建WireGuard服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAWireGuard-VPN%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) （2020年3月8日更新创建多账号方法）
 

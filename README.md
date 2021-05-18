@@ -5,7 +5,7 @@
 
 永久免费。免安装，无需设置，解压后使用。稳定、流畅、高速、不限流量，长期更新。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/%E5%9B%BE%E6%A0%87.PNG)
+![](./static/%E5%9B%BE%E6%A0%87.PNG)
 
 
 **介绍**：clash、v2ray、SSR、SS-plugin、SSROT、FreeGate，适合windows操作系统，比如：xp、win7、win8、win10系统。压缩包文件的格式是7z，如果解压出错，用7解压软件来解压（[7z解压软件下载地址](https://sparanoid.com/lab/7z/)）。
@@ -34,7 +34,7 @@
 
 ***
 
-[谷歌翻墙浏览器90高内核版](./%E9%AB%98%E5%86%85%E6%A0%B8%E7%89%88) （2021年4月17日更新所有版本）
+[谷歌翻墙浏览器90高内核版](./高内核版.md) （2021年4月17日更新所有版本）
 
 [谷歌翻墙浏览器低内核版](https://github.com/Alvin9999/new-pac/wiki/%E4%BD%8E%E5%86%85%E6%A0%B8%E7%89%88) （2021年4月17日更新集合版）
 

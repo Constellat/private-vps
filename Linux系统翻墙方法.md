@@ -10,7 +10,7 @@
 
 [全平台SS/SSR客户端下载汇总](http://www.mediafire.com/folder/sfqz8bmodqdx5/shadowsocks相关客户端)
 
-[获取最新SS或SSR账号](https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7)
+[获取最新SS或SSR账号](./ss免费账号.md)
  
 
 ### 第二种方法：使用v2ray账号
@@ -21,41 +21,41 @@
 
 编辑config.json配置文件，略。。。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/1.png)
+![](./static/linux1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/2.png)
+![](./static/linux2.png)
 
 **2、配置**
 
 将v2ray文件夹移动到 /usr/local/目录下，然后进入该目录
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/3.png)
-
+![](./static/linux3.png)
+```
   sudo mv /home/jacen/Downloads/v2ray /usr/local/v2ray
 
   cd /usr/local/v2ray/
+```
+创建配置文件目录 `sudo mkdir /etc/v2ray`
 
-创建配置文件目录 sudo mkdir /etc/v2ray
-
-将配置文件复制到刚才创建的目录 sudo cp config.json /etc/v2ray/
+将配置文件复制到刚才创建的目录 `sudo cp config.json /etc/v2ray/`
 
 运行v2ray
-
+```
   cd /usr/local/v2ray/
 
   sudo ./v2ray --config=/etc/v2ray/config.json
-
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/4.png)
+```
+![](./static/linux4.png)
 
 **3、设置开机启动**
 
 执行以下命令，修改启动脚本
-
+```
   cd /usr/local/v2ray/systemd/
 
   sudo vi v2ray.service
-
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/5.png)
+```
+![](./static/linux5.png)
 
 将里面的ExecStart键值改为下面的 /usr/local/v2ray/v2ray -config /etc/v2ray/config.json
 
@@ -63,37 +63,37 @@
 
 ![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2linux/a1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/a2.png)
+![](./static/a2.png)
 
-将文件复制到服务目录。 sudo cp v2ray.service /lib/systemd/system/
+将文件复制到服务目录。 `sudo cp v2ray.service /lib/systemd/system/`
 
 启动服务并开机自启
-
+```
   sudo systemctl start v2ray.service
 
   sudo systemctl enable v2ray.service
-
-停止服务 sudo systemctl stop v2ray.service
+```
+停止服务 `sudo systemctl stop v2ray.service`
 
 关闭开机自启
-
+```
 sudo systemctl disable v2ray.service
-
+```
 **注意事项**
 
 关于配置文件，如果有win系统版的V2rayN软件，并成功配置了的，可以直接将其导出，替换压缩包里面的文件，不用修改即可直接使用。
 
 代理设置应该和配置文件中保持一致
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/6.png)
+![](./static/linux6.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/7.png)
+![](./static/linux7.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/9.png)
+![](./static/linux9.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/linux/10.png)
+![](./static/linux10.png)
 
-[点我获取最新v2ray账号](https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7)
+[点我获取最新v2ray账号](./v2ray免费账号.md)
 
 ### 第三种方法：Linux使用Wine运行Windows软件
 

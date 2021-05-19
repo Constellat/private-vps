@@ -12,9 +12,9 @@
 
 试用套餐3元、月付20元、年付经济套餐110元、年付A套餐168元、年付B套餐258元、年付C套餐338元，[套餐购买](https://v2free.org/auth/register?code=UsUP)
 
-![](./static/price01.PNG)
+![](./static/price01.png)
 
-![](./static/price02.PNG)
+![](./static/price02.png)
 
 
 ***
@@ -27,7 +27,7 @@
 
 **打开商店——充值进行充值，充值方式：微信、支付宝、paypal和数字货币。**
 
-![](./static/v2ray-003.PNG)
+![](./static/v2ray-003.png)
 
 **购买相应的套餐后，打开“用户中心”，在“快速使用”这里可以复制订阅链接以及所有节点信息，也可以在节点列表获取单个节点信息。**
 

@@ -86,18 +86,18 @@ Just My Socks 100仅支持TCP协议，该协议足以用于浏览网络以及使
 <br class="keepp">
 Just My Socks 官网：<a rel="nofollow" href="https://justmysocks3.net/members/aff.php?aff=8225&gid=1">Just My Socks 官网</a>
 </p>
-<a href="./static/jms-1.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-1.png" alt="Just My Socks 购买教程" /></a>
+<a href="./static/jms-1.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="./static/jms-1.png" alt="Just My Socks 购买教程" /></a>
 <h2 id="user-content-just3"><span id="just_my_socks-3">三、Just My Socks优惠码</span></h2>
 <p class="keepp">
 在购买Just My Socks时，我们可以使用Just My Socks优惠码：<strong>JMS9272283</strong>获取5.2%循环优惠，输入优惠码后点击Validate Code即可使用优惠码，点击Checkout付款：
 <br class="keepp">
-<a href="https://github.com/killgcd/justmysocks/blob/master/images/jms-2.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-2.png" alt="Just My Socks优惠码" /></a>
+<a href="./static/jms-2.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="./static/jms-2.png" alt="Just My Socks优惠码" /></a>
 </p>
 <h2 id="user-content-just4"><span id="just_my_socks-4">四、Just My Socks注册</span></h2>
 <p class="keepp">
 这里需要填写你Just My Socks账号的信息：<strong>不要挂代理注册，如实填写</strong>，否则可能被认为欺诈，其中省份直接写拼音即可（例如Shandong），选择支付方式为Paypal（Paypal更安全）或 Alipay（支付宝），勾选同意服务条款后，点击Complete Order完成订单：
 <br class="keepp">
-<a href="https://github.com/killgcd/justmysocks/blob/master/images/jms-3.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-3.png" alt="Just My Socks 注册信息" /></a>
+<a href="./static/jms-3.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="./static/jms-3.png" alt="Just My Socks 注册信息" /></a>
 <br class="keepp">
 用支付宝付款完成后，你的Just My Socks服务就购买完成了。
 </p>
@@ -105,20 +105,20 @@ Just My Socks 官网：<a rel="nofollow" href="https://justmysocks3.net/members/
 <p class="keepp">
 完成Just My Socks购买后，登陆<a rel="nofollow" href="https://justmysocks3.net/members/aff.php?aff=8225&gid=1">Just My Socks 官网</a>，选择Services-&gt;My Services，就可以看到你刚才买的服务了，点击这个服务查看详情：
 <br class="keepp">
-<a href="https://github.com/killgcd/justmysocks/blob/master/images/jms-4.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-4.png" alt="Just My Socks 我的服务" /></a>
+<a href="./static/jms-4.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="./static/jms-4.png" alt="Just My Socks 我的服务" /></a>
 </p>
 <p class="keepp">
 这里就可以看到shadowsocks和v2ray详情了（ip以域名形式发放，页面上也能看到域名对应的ip，如果域名解析不顺利可直接填入域名对应的ip）
 
 **注意：默认的SS/SSR加密方式为aes-256-gcm，aes-256-gcm加密方式必须使用 SS 客户端，SSR客户端不支持aes-256-gcm。如果想用SSR客户端，在界面上操作一下就可以自动把aes-256-gcm加密方式改为SSR客户端支持的aes-256-cfb。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/just1.jpg)
+![](./static/just1.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/just5.jpg)
+![](./static/just5.jpg)
 
 加密方式修改如下图：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/just6.jpg)
+![](./static/just6.jpg)
 
 除了更改加密方式以外，还可以选择更改帐号密码和端口。
 
@@ -154,7 +154,7 @@ Windows SS客户端 [下载地址](https://github.com/shadowsocks/shadowsocks-wi
 
 [全平台SS/SSR客户端下载汇总](http://www.mediafire.com/folder/sfqz8bmodqdx5/shadowsocks相关客户端)
 
-v2ray帐号可以参考这个教程来使用[v2ray各平台图文使用教程](https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%90%84%E5%B9%B3%E5%8F%B0%E5%9B%BE%E6%96%87%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B) 
+v2ray帐号可以参考这个教程来使用[v2ray各平台图文使用教程](./v2ray各平台图文使用教程.md) 
 
 ***
 
@@ -174,11 +174,11 @@ v2ray帐号可以参考这个教程来使用[v2ray各平台图文使用教程](h
 
 操作步骤：在 Just My Socks 官网菜单，选择 Services > My Services，然后会看到你已购买的产品信息，Status 显示 Active 的，即为当前可用的！
 
-<a href="https://github.com/killgcd/justmysocks/blob/master/images/jms-4.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-4.png" alt="Just My Socks 我的服务" /></a>
+<a href="./static/jms-4.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="./static/jms-4.png" alt="Just My Socks 我的服务" /></a>
 
 点击进去之后，在左侧找到 Request Refund ，即是申请退款选项！如果你要退款，那就点击它！！！备注，你可能需要再点击一下类似 Request full refund for this service 的按钮。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/just3.jpg)
+![](./static/just3.jpg)
 
 
 退款方式是原路退回的，比如说你是使用了支付宝付款的，那么到时候也是退款到支付宝的。

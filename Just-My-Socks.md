@@ -86,7 +86,7 @@ Just My Socks 100仅支持TCP协议，该协议足以用于浏览网络以及使
 <br class="keepp">
 Just My Socks 官网：<a rel="nofollow" href="https://justmysocks3.net/members/aff.php?aff=8225&gid=1">Just My Socks 官网</a>
 </p>
-<a href="https://github.com/killgcd/justmysocks/blob/master/images/jms-1.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-1.png" alt="Just My Socks 购买教程" /></a>
+<a href="./static/jms-1.png" target="_blank" rel="noopener noreferrer"><img style="max-width:100%" src="https://github.com/killgcd/justmysocks/raw/master/images/jms-1.png" alt="Just My Socks 购买教程" /></a>
 <h2 id="user-content-just3"><span id="just_my_socks-3">三、Just My Socks优惠码</span></h2>
 <p class="keepp">
 在购买Just My Socks时，我们可以使用Just My Socks优惠码：<strong>JMS9272283</strong>获取5.2%循环优惠，输入优惠码后点击Validate Code即可使用优惠码，点击Checkout付款：

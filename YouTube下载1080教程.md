@@ -4,11 +4,11 @@
 
 ***
 
-翻墙打开网址：https://www.y2mate.com/zh-cn2
+翻墙打开网址：[https://www.y2mate.com/zh-cn2](https://www.y2mate.com/zh-cn2)
 
 图文教程如下：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/download/youtube下载5.png)
+![](./static/youtube下载5.png)
 
 ***
 

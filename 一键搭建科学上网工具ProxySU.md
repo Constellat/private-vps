@@ -59,9 +59,9 @@ ProxySU的安装流程，是假设在全新系统下，没有装过以上代理�
 
 示意图:
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps1.jpg)
+![](./static/ps1.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps11.jpg)
+![](./static/ps11.jpg)
 
 **搭建流程**:
 
@@ -76,13 +76,13 @@ ProxySU的安装流程，是假设在全新系统下，没有装过以上代理�
 
 VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。
 
-vultr注册地址：https://www.vultr.com/?ref=7048874  （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
+vultr注册地址：[https://www.vultr.com](https://www.vultr.com)  （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
 
-<a href="https://www.vultr.com/?ref=7048874 "><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
+<a href="https://www.vultr.com"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
 
 虽然是英文界面，但是现在的浏览器都有网页翻译功能，鼠标点击右键，选择网页翻译即可翻译成中文。
 
-注册并邮件激活账号，充值后即可购买服务器。充值方式是支付宝或paypal，使用paypal有银行卡（包括信用卡）即可。paypal注册地址：https://www.paypal.com （paypal是国际知名的第三方支付服务商，注册一下账号，绑定银行卡即可购买国外商品）
+注册并邮件激活账号，充值后即可购买服务器。充值方式是支付宝或paypal，使用paypal有银行卡（包括信用卡）即可。paypal注册地址：[https://www.paypal.com](https://www.paypal.com) （paypal是国际知名的第三方支付服务商，注册一下账号，绑定银行卡即可购买国外商品）
 
 ***
 
@@ -98,7 +98,7 @@ vultr注册地址：https://www.vultr.com/?ref=7048874  （vps最低2.5美元/�
 
 40美元/月的服务器配置信息： 4cpu   8G内存   160G SSD硬盘   带宽1G    4000G流量/月  
 
-**[vultr](https://www.vultr.com/?ref=7048874)17个服务器位置官方测试地址：**
+**[vultr](https://www.vultr.com)17个服务器位置官方测试地址：**
 <table id="tablepress-1">
 <thead>
 <tr>
@@ -222,43 +222,43 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **账号充值如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp100.png)
+![](./static/pp100.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp101.png)
+![](./static/pp101.png)
 
 
 **开通服务器步骤如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr1.PNG)
+![](./static/vultr1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr2.PNG)
+![](./static/vultr2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr3.PNG)
+![](./static/vultr3.png)
 
 **vps服务器推荐用Debain9，不推荐用CentOS7，CentOS7用ProxySU无法自动开启bbr加速。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr4.PNG)
+![](./static/vultr4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr5.PNG)
+![](./static/vultr5.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr6.PNG)
+![](./static/vultr6.png)
 
 
 **开通服务器时，当出现了ip，不要立马去ping或者用ProxySU去连接，再等5分钟之后，有个缓冲时间。完成购买后，找到系统的密码记下来，部署服务器时需要用到。vps系统密码获取方法如下图：**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程05.png)
+![](./static/pac教程05.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程06.png)
+![](./static/pac教程06.png)
 
 **删掉服务器步骤如下图**：
 
 删除服务器时，先开新的服务器后再删除旧服务器，这样可以保证新服务器的ip与旧ip不同。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de4.PNG)
+![](./static/de4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de2.PNG)
+![](./static/de2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de5.png)
+![](./static/de5.png)
 
 **第二步:ProxySU下载及搭建**
 
@@ -274,45 +274,45 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 打开ProxySU,填上第一步购买的vps服务器ip和密码后,选上想搭建的科学上网工具。步骤如下：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps1.jpg)
+![](./static/softimag/ps1.jpg)
 
 **填上ip和密码，端口22和root默认。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps10.jpg)
+![](./static/softimag/ps10.jpg)
 
 **以搭建v2ray为例，选中v2ray模板库。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps3.jpg)
+![](./static/softimag/ps3.jpg)
 
 **在v2ray模板库中，选中想要搭建的v2ray协议，有的协议不需要域名，可以直接搭建，有的需要域名，所以需要提前购买域名并绑定服务器ip。第一次购买域名，可以参考这个[域名购买教程](https://github.com/Alvin9999/new-pac/wiki/%E5%9F%9F%E5%90%8D%E8%B4%AD%E4%B9%B0%E6%95%99%E7%A8%8B) 。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps4.jpg)
+![](./static/softimag/ps4.jpg)
 
 **目前比较热门的v2ray协议:WebSocket+Tls+Web （需要域名）选中后，填写域名。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps5.jpg)
+![](./static/softimag/ps5.jpg)
 
 **如果没有域名，可以搭建其它的协议，比如TCP、WebSocket（不带tls）、KCP。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps9.jpg)
+![](./static/softimag/ps9.jpg)
 
 **点击v2ray一键安装，软件会自动搭建。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps6.jpg)
+![](./static/softimag/ps6.jpg)
 
 **系统工具：点击系统工具可以校对时间和部署bbr加速。v2ray需要校对时间。目前搭建v2ray的过程中，软件会自动校对时间和开启bbr加速，如果一切顺利不用手动再去点击系统工具。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps11.jpg)
+![](./static/softimag/ps11.jpg)
 
 **部署完后，会自动弹出帐号配置信息，并且在文件夹中也会自动生成相关配置文件及客户端下载地址。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps7.jpg)
+![](./static/softimag/ps7.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/ps8.jpg)
+![](./static/softimag/ps8.jpg)
 
 **有个vmess地址，把它复制下来，然后右键“v2rayN”图标，选择“从剪切板批量导入url”，如下图**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/softimag/111.jpg)
+![](./static/softimag/111.jpg)
 
 **如果忘记了vmes地址，在文件夹中有url的txt文档。**
 
@@ -320,12 +320,15 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **除了这个工具，还可以使用SSH工具连接vps后使用一键脚本来搭建。参考以下教程**：
 
-[自建ss/ssr服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
-[自建v2ray服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAv2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
-[自建brook服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAbrook%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
-[自建trojan服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAtrojan%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
-[自建WireGuard VPN服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAWireGuard-VPN%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 
+[自建ss/ssr服务器教程](./自建ss服务器教程.md)
 
+[自建v2ray服务器教程](./自建v2ray服务器教程.md)
+
+[自建brook服务器教程](./自建brook服务器教程.md)
+ 
+[自建trojan服务器教程](./自建trojan服务器教程.md)
+ 
+[自建WireGuard VPN服务器教程](./自建WireGuard-VPN服务器教程.md)
 
 ***
 

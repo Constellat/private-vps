@@ -64,7 +64,7 @@ Goflyway Windows图形界面客户端 [下载地址1](https://tr61.free4444.xyz/
 
 ![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/goflyway/gy1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/goflyway/goflyway-001.jpg)
+![](./static/goflyway-001.jpg)
 
 **目前只有Windows图形界面的客户端，其它电脑系统，比如Mac、Linux要使用命令行来使用。**
 
@@ -94,13 +94,13 @@ Mac：cloudflare 里面 SSL/TLS 菜单里面 选上 Flexible，不要关闭成of
 
 打开 Goflyway 安卓客户端后，可以看到一个默认的账号，因为 Goflyway 安卓客户端是基于 Shadowsocks 安卓客户端修改而来的，所以此处的默认账户实际上是 Shadowsocks 安卓客户端自带的 SS 账号，你只要删除或者修改该默认账户。
 
-![](https://raw.githubusercontent.com/Alvin9999/pac2/master/goan2.png)
+![](./static/goan2.png)
 
 加密方式不能改，路由选项只能设置为：全局。但是"分应用"VPN 还是能用的，可以指定哪些应用走代理。
 
 ***
 
-[其它翻墙方法](https://github.com/Alvin9999/new-pac/wiki/)
+[其它翻墙方法](./README.md)
 
 ***
 

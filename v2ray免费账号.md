@@ -42,7 +42,7 @@ VPS推荐：
 **北京时间2021年4月23日7点32分更新VMESS节点。禁止使用节点进行BT下载、滥发垃圾邮件、DDOS攻击！BT下载会导致服务器被投诉版权而被封！如果不能看到最新的节点信息，把浏览器缓存清理一下。**
 
 
-备用网址：https://tr1.freeair888.club/v2ray免费账号 
+备用网址：`https://tr1.freeair888.club/v2ray`免费账号 
 
 ***
 
@@ -108,7 +108,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImh0dHBzOi8vZ2l0LmlvL3Y5OTk5IOe+juWbvSIs
 
 
 
-**如果想搭建自己的v2ray节点，参考[自建v2ray服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAv2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B) 。也可以考虑付费v2ray服务-[V2free机场](https://github.com/Alvin9999/new-pac/wiki/V2free%E6%9C%BA%E5%9C%BA)。**
+**如果想搭建自己的v2ray节点，参考[自建v2ray服务器教程](./自建v2ray服务器教程.md) 。也可以考虑付费v2ray服务-[V2free机场](./V2free机场.md)。**
 
 ***
 
@@ -124,13 +124,13 @@ Linux客户端[Qv2ray](https://github.com/lhy0403/Qv2ray/releases)
 安卓客户端v2ray vpn:[下载1](https://d1.w2rss.tk/ssvpn-universal.apk) 
 [下载2](https://d2.w2rss.tk/ssvpn-universal.apk) 
 
-iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/wiki/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6) [iOS注册美区Apple ID教程](https://github.com/Alvin9999/new-pac/wiki/iOS%E6%B3%A8%E5%86%8C%E7%BE%8E%E5%8C%BAApple-ID%E6%95%99%E7%A8%8B) 
+iOS：[没有美区AppleID的翻墙教程](./苹果手机翻墙软件.md) [iOS注册美区Apple ID教程](./iOS注册美区Apple-ID教程.md) 
 
-使用方法参考[v2ray各平台图文使用教程](https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%90%84%E5%B9%B3%E5%8F%B0%E5%9B%BE%E6%96%87%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
+使用方法参考[v2ray各平台图文使用教程](./v2ray各平台图文使用教程.md)
 
 ***
 
-[其它翻墙方法](https://github.com/Alvin9999/new-pac/wiki/)
+[其它翻墙方法](./README.md)
 
 ***
 

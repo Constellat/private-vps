@@ -19,9 +19,9 @@
 
 VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。
 
-vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
+vultr注册地址：https://www.vultr.com/ （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
 
-<a href="https://www.vultr.com/?ref=7048874"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
+<a href="https://www.vultr.com/"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
 
 虽然是英文界面，但是现在的浏览器都有网页翻译功能，鼠标点击右键，选择网页翻译即可翻译成中文。
 
@@ -41,7 +41,7 @@ vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月
 
 40美元/月的服务器配置信息： 4cpu   8G内存   160G SSD硬盘   带宽1G    4000G流量/月  
 
-**[vultr](https://www.vultr.com/?ref=7048874)17个服务器位置官方测试地址：**
+**[vultr](https://www.vultr.com/)17个服务器位置官方测试地址：**
 
 <table id="tablepress-1">
 <thead>
@@ -167,43 +167,43 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **账号充值如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp100.png)
+![](./static/pac2/pp100.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp101.png)
+![](./static/pac2/pp101.png)
 
 
 **开通服务器步骤如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr1.PNG)
+![](./static/pac2/vultr/vultr1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr2.PNG)
+![](./static/pac2/vultr/vultr2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr3.PNG)
+![](./static/pac2/vultr/vultr3.png)
 
 ### 点击图中的CentOS几个字，会弹出选项，然后选中centos6或7！ （不要选默认的centos8，脚本不支持centos8！）
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr4.PNG)
+![](./static/pac2/vultr/vultr4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr5.PNG)
+![](./static/pac2/vultr/vultr5.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr6.PNG)
+![](./static/pac2/vultr/vultr6.png)
 
 
 **开通服务器时，当出现了ip，不要立马去ping或者用xshell去连接，再等5分钟之后，有个缓冲时间。完成购买后，找到系统的密码记下来，部署服务器时需要用到。vps系统密码获取方法如下图：**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程05.png)
+![](./static/crp_up/pac教程05.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程06.png)
+![](./static/crp_up/pac教程06.png)
 
 **删掉服务器步骤如下图**：
 
 删除服务器时，先开新的服务器后再删除旧服务器，这样可以保证新服务器的ip与旧ip不同。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de4.PNG)
+![](./static/PAC/ss/de4.PNG)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de2.PNG)
+![](./static/PAC/ss/de2.PNG)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de5.png)
+![](./static/PAC/ss/de5.png)
 
 
 ***
@@ -218,7 +218,7 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 如果你是Mac苹果电脑操作系统，更简单，无需下载xshell，系统可以直接连接VPS。直接打开Terminal终端，输入：ssh root@43.45.43.21（将45.45.43.21换成你的IP），之后输入你的密码就可以登录了（输入密码的时候屏幕上不会有显示）
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/Mac.png)
+![](./static/pac2/Mac.png)
 
 如果不能用Mac自带的终端连接的话，直接网上搜“Mac连接SSH的软件”，有很多，然后通过软件来连接vps服务器就行，具体操作方式参考windows xshell。Mac成功连接vps后剩下的操作和windows一样。
 
@@ -228,23 +228,23 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 下载windows xshell软件并安装后，打开软件
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell11.png)
+![](./static/PAC/xshell11.png)
 
 选择文件，新建
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell12.png)
+![](./static/PAC/xshell12.png)
 
 随便取个名字，然后把你的服务器ip填上
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell13.png)
+![](./static/PAC/xshell13.png)
 
 连接国外ip即服务器时，软件会先后提醒你输入用户名和密码，用户名默认都是root，密码是你购买的服务器系统的密码。
 
 **如果xshell连不上服务器，没有弹出让你输入用户名和密码的输入框，表明你开到的ip是一个被墙的ip，遇到这种情况，重新开新的服务器，直到能用xshell连上为止，耐心点哦！如果同一个地区开了多台服务器还是不行的话，可以换其它地区。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell14.png)
+![](./static/PAC/xshell14.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/xshell2.png)
+![](./static/PAC/ss/xshell2.png)
 
 连接成功后，会出现如上图所示，之后就可以复制粘贴代码部署了。
 
@@ -254,11 +254,11 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 **脚本一(SSR)，安装完成后，快捷管理命令：bash ssr.sh**
 
 ***
-
+```
 yum -y install wget
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
-
+```
 ***
 
 **脚本二（SS）**
@@ -266,11 +266,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 **脚本二没有单独做图文教程，参考脚本一的图文说明摸索下就会了。安装完成后，快捷管理命令：bash ss-go.sh**
 
 ***
-
+```
 yum -y install wget
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ss-go.sh && chmod +x ss-go.sh && bash ss-go.sh
-
+```
 ***
 
 **脚本三（SSR多用户管理脚本）**
@@ -279,11 +279,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 bash ssrmu.sh clearall**
 
 ***
-
+```
 yum -y install wget
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
-
+```
 ***
 
 > 如果提示 wget: command not found 的错误，这是你的系统精简的太干净了，wget都没有安装，所以需要安装wget。CentOS系统安装wget命令: yum install -y wget  Debian/Ubuntu系统安装wget命令:apt-get install -y wget
@@ -294,25 +294,25 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 
 复制上面的**脚本一代码**到VPS服务器里，复制代码用鼠标右键的复制（整个代码一起复制，而不是分段哦！），然后在vps里面右键粘贴进去，因为ctrl+c和ctrl+v无效。接着按回车键，脚本会自动安装，以后只需要运行这个快捷命令就可以出现下图的界面进行设置，快捷管理命令为：bash ssr.sh
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/8.png)
+![](./static/PAC/ss/8.png)
 
 如上图出现管理界面后，**输入数字1来安装SSR服务端**。如果输入1后不能进入下一步，那么请退出xshell，重新连接vps服务器，然后输入快捷管理命令bash ssr.sh 再尝试。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/31.png)
+![](./static/PAC/demo/31.png)
 
 根据上图提示，依次输入自己想设置的**端口和密码** (**密码建议用复杂点的字母组合，端口号为40-65535之间的数字**)，回车键用于确认
 
 注：关于端口的设置，总的网络总端口有6万多个，理论上可以任意设置，但不要以0开头！但是有的地区需要设置特殊的端口才有效，一些特殊的端口比如80、143、443、1433、3306、3389、8080。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/32.png)
+![](./static/PAC/demo/32.png)
 
 如上图，选择想设置的**加密方式**，比如10，按回车键确认
 
 接下来是选择**协议插件**，如下图：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/11.png)
+![](./static/PAC/ss/11.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/41.PNG)
+![](./static/PAC/demo/41.png)
 
 选择并确认后，会出现上图的界面，提示你是否选择兼容原版，这里的原版指的是SS客户端（SS客户端没有协议和混淆的选项），可以根据需求进行选择，演示选择y
 
@@ -321,32 +321,32 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 **注意：如果协议是origin，那么混淆也必须是plain；如果协议不是origin，那么混淆可以是任意的。有的地区需要把混淆设置成plain才好用。因为混淆不总是有效果，要看各地区的策略，有时候不混淆（plain）或者（origin和plain一起使用），让其看起来像随机数据更好。（特别注意：tls 1.2_ticket_auth容易受到干扰！请选择除tls开头以外的其它混淆！！！）** 
 
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/33.png)
+![](./static/PAC/demo/33.png)
 
 
 进行混淆插件的设置后，会依次提示你对设备数、单线程限速和端口总限速进行设置，默认值是不进行限制，个人使用的话，选择默认即可，即直接敲回车键。
 
 注意：关于限制设备数，这个协议必须是非原版且不兼容原版才有效，也就是必须使用SSR协议的情况下，才有效！
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/14.png)
+![](./static/PAC/ss/14.png)
 
 之后代码就正式自动部署了，到下图所示的位置，提示你下载文件，输入：y
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/15.png)
+![](./static/PAC/ss/15.png)
 
 耐心等待一会，出现下面的界面即部署完成：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/16.png)
+![](./static/PAC/ss/16.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/34.png)
+![](./static/PAC/demo/34.png)
 
 根据上图就可以看到自己设置的SSR账号信息，包括IP、端口、密码、加密方式、协议插件、混淆插件，这些信息需要填入你的SSR客户端。提醒一下：二维码链接地址由于域名失效不可用，所以部署好的账号需要自己在客户端里面手动填写信息。
 
 如果之后想修改账号信息，直接输入快捷管理命令：bash ssr.sh 进入管理界面，选择相应的数字来进行一键修改。例如：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/22.png)
+![](./static/PAC/ss/22.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/23.png)
+![](./static/PAC/ss/23.png)
 
 **脚本演示结束。**
 
@@ -371,7 +371,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 
 示意图:
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/ssimage/ssrtls.PNG)
+![](./static/pac2/ssimage/ssrtls.png)
 
 ***
 
@@ -380,13 +380,13 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBack
 五合一的TCP网络加速脚本，包括了BBR原版、BBR魔改版、暴力BBR魔改版、BBR plus（首选）、Lotsever(锐速)安装脚本。可用于KVMXen架构，不兼容OpenVZ（OVZ）。支持Centos 6+ / Debian 7+ / Ubuntu 14+，BBR魔改版不支持Debian 8。
 
 ***
-
+```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 
 chmod +x tcp.sh
 
 ./tcp.sh
-
+```
 
 ***
 
@@ -394,23 +394,23 @@ chmod +x tcp.sh
 
 安装完成后，脚本管理命令为：./tcp.sh
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr1.jpg)
+![](./static/pac2/vultr/newbbr1.jpg)
 
 操作方法：先安装内核，重启vps让内核生效，再启动对应的加速即可。数字1的BBR/BBR魔改内核对应数字4、5、6的BBR加速、BBR魔改加速和暴力BBR魔改版加速。数字2的BBRplus内核对应数字7的BBRplus加速。数字3的锐速加速内核对应数字8的锐速加速。
 
 以安装暴力BBR魔改版加速为例，我们先安装对应的内核，输入数字1
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr2.jpg)
+![](./static/pac2/vultr/newbbr2.jpg)
 
 内核安装完成后，输入y进行重启，重启才能让内核生效
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr3.jpg)
+![](./static/pac2/vultr/newbbr3.jpg)
 
 重启完成后，输入数字6来启动暴力BBR魔改版加速
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr4.jpg)
+![](./static/pac2/vultr/newbbr4.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr5.jpg)
+![](./static/pac2/vultr/newbbr5.jpg)
 
 输入./tcp.sh查看最终是否启动成功。
 
@@ -418,7 +418,7 @@ chmod +x tcp.sh
 
 **注意：如果在安装内核环节出现这样一张图，注意选择NO**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr6.jpg)
+![](./static/pac2/vultr/newbbr6.jpg)
 
 
 ***
@@ -437,7 +437,7 @@ Mac SSR客户端 [下载地址](https://github.com/shadowsocksr-backup/Shadowsoc
 
 安卓SSR客户端 [下载地址](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases/download/3.4.0.8/shadowsocksr-release.apk) 
 
-iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/wiki/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6)  [iOS注册美区Apple ID教程](https://github.com/Alvin9999/new-pac/wiki/iOS%E6%B3%A8%E5%86%8C%E7%BE%8E%E5%8C%BAApple-ID%E6%95%99%E7%A8%8B) 
+iOS：[没有美区AppleID的翻墙教程](./苹果手机翻墙软件.md)  [iOS注册美区Apple ID教程](./iOS注册美区Apple-ID教程.md) 
 
 [全平台SS/SSR客户端下载汇总](http://www.mediafire.com/folder/sfqz8bmodqdx5/shadowsocks相关客户端)
 
@@ -445,22 +445,22 @@ iOS：[没有美区AppleID的翻墙教程](https://github.com/Alvin9999/new-pac/
 
 **有了账号后，打开SSR客户端，填上信息，这里以windows版的SSR客户端为例子**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/42.PNG)
+![](./static/PAC/demo/42.png)
 
 在对应的位置，填上服务器ip、服务器端口、密码、加密方式、协议和混淆，最后将浏览器的代理设置为（http）127.0.0.1和1080即可。账号的端口号就是你自己设置的，而要上网的浏览器的端口号是1080，固定的，谷歌浏览器可以通过 SwitchyOmega 插件来设置。
 
 下载插件：[switchyomega](https://github.com/atrandys/trojan/releases/download/1.0.0/SwitchyOmega_Chromium.crx)
 
 安装插件，打开chrome，打开扩展程序，将下载的插件拖动到扩展程序页面，添加到扩展。
-![20181116000534](https://user-images.githubusercontent.com/12132898/70548725-0461d000-1bae-11ea-9d1e-4577e36ac46e.png)
+![20181116000534](./static/70548725-0461d000-1bae-11ea-9d1e-4577e36ac46e.png)
 
 完成添加，会跳转到switchyomega页面，点跳过教程，然后点击proxy，如图填写，最后点击应用选项。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/demo/ssrkz.PNG)
+![](./static/PAC/demo/ssrkz.png)
 
 启动SSR客户端后，右键SSR客户端图标，选择第一个“系统代理模式”，里面有3个子选项，选择"全局模式“，之后就可以用浏览器设置好了的代理模式（http）127.0.0.1和1080翻墙，此模式下所有的网站都会走SSR代理。
 
-![ssr9000](https://user-images.githubusercontent.com/12132898/32225069-cfe6195a-be7e-11e7-99e0-e2fa98f93b1f.png)
+![ssr9000](./static/32225069-cfe6195a-be7e-11e7-99e0-e2fa98f93b1f.png)
 
 ***
 

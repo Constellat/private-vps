@@ -282,37 +282,37 @@ setsid ./brook server -l :9999 -p password
 
 复制上面的**脚本一代码**到VPS服务器里，复制代码用鼠标右键的复制，然后在vps里面右键粘贴进去，因为ctrl+c和ctrl+v无效。接着按回车键，脚本会自动安装。以后只需要运行这个快捷命令就可以出现下图的界面进行设置，快捷管理命令为：bash brook.sh 或 ./brook.sh
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook1.PNG)
+![](./static/PAC/brook/brook1.png)
 
 出现上图表明脚本安装成功，脚本安装成功后就可以输入快捷管理命令bash brook.sh 或 ./brook.sh 如果输入了快捷管理命令后，出现“Permission denied”字样，如下图，接着需要输入命令：chmod +x brook.sh 然后再输入快捷管理命令即可。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook2.PNG)
+![](./static/PAC/brook/brook2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook3.PNG)
+![](./static/PAC/brook/brook3.png)
 
 输入快捷管理命令后，出现上图，接着输入数字1来进行安装。会依次对**端口、密码、协议和版本号**进行选择。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook4.PNG)
+![](./static/PAC/brook/brook4.png)
 
 端口输入1-65535之间的数字。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook5.PNG)
+![](./static/PAC/brook/brook5.png)
 
 密码最好不要有特殊符号。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook6.PNG)
+![](./static/PAC/brook/brook6.png)
 
 协议选择新版协议，输入1。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook7.PNG)
+![](./static/PAC/brook/brook7.png)
 
 版本号输入v20200801
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook8.PNG)
+![](./static/PAC/brook/brook8.png)
 
 最终安装成功后，会出现下面的界面。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brook9.PNG)
+![](./static/PAC/brook/brook9.png)
 
 此脚本是开机自动启动，部署一次即可。最后可以重启服务器确保部署生效（一般情况不重启也可以）。重启需要在命令栏里输入reboot ，输入命令后稍微等待一会服务器就会自动重启，一般重启过程需要2～5分钟，重启过程中Xshell会自动断开连接，等VPS重启好后才可以用Xshell软件进行连接。如果部署过程中卡在某个位置超过10分钟，可以用xshell软件断开，然后重新连接你的ip，再复制代码进行部署。
 
@@ -323,13 +323,13 @@ setsid ./brook server -l :9999 -p password
 五合一的TCP网络加速脚本，包括了BBR原版、BBR魔改版、暴力BBR魔改版、BBR plus（首选）、Lotsever(锐速)安装脚本。可用于KVMXen架构，不兼容OpenVZ（OVZ）。支持Centos 6+ / Debian 7+ / Ubuntu 14+，BBR魔改版不支持Debian 8。
 
 ***
-
+```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 
 chmod +x tcp.sh
 
 ./tcp.sh
-
+```
 
 ***
 
@@ -343,17 +343,17 @@ chmod +x tcp.sh
 
 以安装暴力BBR魔改版加速为例，我们先安装对应的内核，输入数字1
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr2.jpg)
+![](./static/pac2/vultr/newbbr2.jpg)
 
 内核安装完成后，输入y进行重启，重启才能让内核生效
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr3.jpg)
+![](./static/pac2/vultr/newbbr3.jpg)
 
 重启完成后，输入数字6来启动暴力BBR魔改版加速
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr4.jpg)
+![](./static/pac2/vultr/newbbr4.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr5.jpg)
+![](./static/pac2/vultr/newbbr5.jpg)
 
 输入./tcp.sh查看最终是否启动成功。
 
@@ -361,7 +361,7 @@ chmod +x tcp.sh
 
 **注意：如果在安装内核环节出现这样一张图，注意选择NO**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr6.jpg)
+![](./static/pac2/vultr/newbbr6.jpg)
 
 ***
 
@@ -373,26 +373,26 @@ Brook Tools v1.0.8 [下载地址](https://tr61.free4444.xyz/BrookToolsv1.0.8.7z)
 
 第二步：下载Brook Windows命令行版客户端，地址：https://github.com/txthinking/brook/releases ，如下图，windows32位系统选择第一个，64位系统选择第二个，下载后**重命名为**brook.exe
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brookwin1.png)
+![](./static/PAC/brook/brookwin1.png)
 
 第三步：将下载好的Brook Tools压缩包解压出来，解压路径不要包含中文，将重命名好的Brook Windows命令行版客户端**放在同一个文件夹**。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brookwin2.png)
+![](./static/PAC/brook/brookwin2.png)
 
 打开Brook Tools客户端，点击界面上的“浏览”后，打开同一文件夹的brook.exe ,之后点击“保存配置”、“启动”
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brookwin3.png)
+![](./static/PAC/brook/brookwin3.png)
 
 Brook Tools客户端有2种代理方式，默认的是**http代理**，如果把前面的勾去掉，则变为**socks5代理**。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/brook/brookwin4.png)
+![](./static/PAC/brook/brookwin4.png)
 
 浏览器代理相应设置为：如果是http代理，设置为HTTP 127.0.0.1 2080；如果是socks5代理，设置为socks5 127.0.0.1 2080；
 
 谷歌浏览器可配合switchyomega插件来使用，下载插件：[switchyomega](https://github.com/atrandys/trojan/releases/download/1.0.0/SwitchyOmega_Chromium.crx)
 
 安装插件，打开chrome，打开扩展程序，将下载的插件拖动到扩展程序页面，添加到扩展。
-![20181116000534](https://user-images.githubusercontent.com/12132898/70548725-0461d000-1bae-11ea-9d1e-4577e36ac46e.png)
+![20181116000534](./static/70548725-0461d000-1bae-11ea-9d1e-4577e36ac46e.png)
 
 完成添加，会跳转到switchyomega页面，点跳过教程，然后点击proxy，如图填写，最后点击应用选项。
 

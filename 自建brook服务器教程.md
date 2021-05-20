@@ -23,9 +23,9 @@ Brook是一款新兴的代理软件，其版本横垮Windows、安卓、iOS、Ma
 
 VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。
 
-vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
+vultr注册地址：[https://www.vultr.com](https://www.vultr.com) （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
 
-<a href="https://www.vultr.com/?ref=7048874"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
+<a href="https://www.vultr.com"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
 
 虽然是英文界面，但是现在的浏览器都有网页翻译功能，鼠标点击右键，选择网页翻译即可翻译成中文。
 
@@ -45,7 +45,7 @@ vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月
 
 40美元/月的服务器配置信息： 4cpu   8G内存   160G SSD硬盘   带宽1G    4000G流量/月  
 
-**[vultr](https://www.vultr.com/?ref=7048874)17个服务器位置官方测试地址：**
+**[vultr](https://www.vultr.com) 17个服务器位置官方测试地址：**
 
 <table id="tablepress-1">
 <thead>
@@ -170,43 +170,43 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **账号充值如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp100.png)
+![](./static/pac2/pp100.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp101.png)
+![](./static/pac2/pp101.png)
 
 
 **开通服务器步骤如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr1.PNG)
+![](./static/pac2/vultr/vultr1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr2.PNG)
+![](./static/pac2/vultr/vultr2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr3.PNG)
+![](./static/pac2/vultr/vultr3.png)
 
 ### 一键部署brook脚本支持的系统有：CentOS 6和7 / Debian 6+ / Ubuntu 14.04 +， 本教程演示选择系统Debian 8。（不要选默认的CentOS8，脚本不支持CentOS8！）
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr4.PNG)
+![](./static/pac2/vultr/vultr4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr5.PNG)
+![](./static/pac2/vultr/vultr5.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr6.PNG)
+![](./static/pac2/vultr/vultr6.png)
 
 **开通服务器时，当出现了ip，不要立马去ping或者用xshell去连接，再等5分钟之后，有个缓冲时间。完成购买后，找到系统的密码记下来，部署服务器时需要用到。vps系统的密码获取方法如下图：**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程05.png)
+![](./static/crp_up/pac教程05.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/Debian2.png)
+![](./static/PAC/ss/Debian2.png)
 
 
 **删掉服务器步骤如下图**：
 
 删除服务器时，先开新的服务器后再删除旧服务器，这样可以保证新服务器的ip与旧ip不同。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de4.PNG)
+![](./static/PAC/ss/de4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de2.PNG)
+![](./static/PAC/ss/de2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de5.png)
+![](./static/PAC/ss/de5.png)
 
 
 ***
@@ -221,7 +221,7 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 如果你是Mac苹果电脑操作系统，更简单，无需下载xshell，系统可以直接连接VPS。直接打开Terminal终端，输入：ssh root@43.45.43.21（将45.45.43.21换成你的IP），之后输入你的密码就可以登录了（输入密码的时候屏幕上不会有显示）
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/Mac.png)
+![](./static/pac2/Mac.png)
 
 如果不能用Mac自带的终端连接的话，直接网上搜“Mac连接SSH的软件”，有很多，然后通过软件来连接vps服务器就行，具体操作方式参考windows xshell。Mac成功连接vps后剩下的操作和windows一样。
 
@@ -231,23 +231,23 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 下载windows xshell软件并安装后，打开软件
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell11.png)
+![](./static/PAC/xshell11.png)
 
 选择文件，新建
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell12.png)
+![](./static/PAC/xshell12.png)
 
 随便取个名字，然后把你的服务器ip填上
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell13.png)
+![](./static/PAC/xshell13.png)
 
 连接国外ip即服务器时，软件会先后提醒你输入用户名和密码，用户名默认都是root，密码是你购买的服务器系统的密码。
 
 **如果xshell连不上服务器，没有弹出让你输入用户名和密码的输入框，表明你开到的ip是一个被墙的ip，遇到这种情况，重新开新的服务器，直到能用xshell连上为止，耐心点哦！如果同一个地区开了多台服务器还是不行的话，可以换其它地区。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell14.png)
+![](./static/PAC/xshell14.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/xshell2.png)
+![](./static/PAC/ss/xshell2.png)
 
 连接成功后，会出现如上图所示，之后就可以复制粘贴代码部署了。
 
@@ -257,24 +257,24 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 **2020年9月1日，[brook](https://github.com/txthinking/brook/releases/tag/v20200909)进行了重大的更新，9月1日到最新的版本客户端和服务端必须是最新的。如果你使用的是9月1日之前的老客户端，脚本一还是能用，只在安装的时候不能自动获取版本，需要手动输入版本号v20200801 如果你使用的是9月1日或最新的客户端版本，可以用脚本二来手动安装，几条命令就可以了。**
 
 **方法一（老）：**
-
+```
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook.sh && chmod +x brook.sh  && bash brook.sh
-
+```
 > 如果提示 wget: command not found 的错误，这是你的系统精简的太干净了，wget都没有安装，所以需要安装wget。CentOS系统安装wget命令: yum install -y wget Debian/Ubuntu系统安装wget命令:apt-get install -y wget
 
 **方法二（新）：**
-
+```
 curl -L https://github.com/txthinking/brook/releases/download/v20200909/brook_linux_amd64 -o /usr/bin/brook
 
 chmod +x /usr/bin/brook
 
 setsid ./brook server -l :9999 -p password
-
+```
 > 第一条命令是下载20200909版本，第二条命令给brook赋予权限，最后一条命令的意思是启动brook并增加守护进程，这样当ssh窗口关闭时，brook仍然是运行的，端口设置为9999，密码设置为password，端口和密码可以改成自己的
 
 **方法二修改brook端口号和密码方法**：
 
-关闭brook进程命令：killall brook
+关闭brook进程命令：`killall brook`
 
 运行第三条命令：setsid ./brook server -l :新端口 -p 新密码
 

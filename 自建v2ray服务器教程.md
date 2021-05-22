@@ -24,9 +24,9 @@
 
 VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。
 
-vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
+vultr注册地址：[https://www.vultr.com/](https://www.vultr.com/) （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
 
-<a href="https://www.vultr.com/?ref=7048874"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
+<a href="https://www.vultr.com/"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
 
 虽然是英文界面，但是现在的浏览器都有网页翻译功能，鼠标点击右键，选择网页翻译即可翻译成中文。
 
@@ -46,7 +46,7 @@ vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月
 
 40美元/月的服务器配置信息： 4cpu   8G内存   160G SSD硬盘   带宽1G    4000G流量/月  
  
-**[vultr](https://www.vultr.com/?ref=7048874)17个服务器位置官方测试地址：**
+**[vultr](https://www.vultr.com/)17个服务器位置官方测试地址：**
 <table id="tablepress-1">
 <thead>
 <tr>
@@ -170,43 +170,43 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **账号充值如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp100.png)
+![](./static/pac2/pp100.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp101.png)
+![](./static/pac2/pp101.png)
 
 **开通服务器步骤如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr1.PNG)
+![](./static/pac2/vultr/vultr1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr2.PNG)
+![](./static/pac2/vultr/vultr2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr3.PNG)
+![](./static/pac2/vultr/vultr3.png)
 
 ### v2ray一键搭建脚本支持的系统有：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr-v2ray1.png)
+![](./static/pac2/vultr/vultr-v2ray1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr5.PNG)
+![](./static/pac2/vultr/vultr5.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr6.PNG)
+![](./static/pac2/vultr/vultr6.png)
 
 
 **开通服务器时，当出现了ip，不要立马去ping或者用xshell去连接，再等5分钟之后，有个缓冲时间。完成购买后，找到系统的密码记下来，部署服务器时需要用到。vps系统的密码获取方法如下图：**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程05.png)
+![](./static/crp_up/pac教程05.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/Debian2.png)
+![](./static/PAC/ss/Debian2.png)
 
 
 **删掉服务器步骤如下图**：
 
 删除服务器时，先开新的服务器后再删除旧服务器，这样可以保证新服务器的ip与旧ip不同。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de4.PNG)
+![](./static/PAC/ss/de4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de2.PNG)
+![](./static/PAC/ss/de2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de5.png)
+![](./static/PAC/ss/de5.png)
 
 ***
 
@@ -220,7 +220,7 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 如果你是Mac苹果电脑操作系统，更简单，无需下载xshell，系统可以直接连接VPS。直接打开Terminal终端，输入：ssh root@43.45.43.21（将45.45.43.21换成你的IP），之后输入你的密码就可以登录了（输入密码的时候屏幕上不会有显示）
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/Mac.png)
+![](./static/pac2/Mac.png)
 
 如果不能用Mac自带的终端连接的话，直接网上搜“Mac连接SSH的软件”，有很多，然后通过软件来连接vps服务器就行，具体操作方式参考windows xshell。Mac成功连接vps后剩下的操作和windows一样。
 
@@ -230,40 +230,40 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 下载windows xshell软件并安装后，打开软件
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell11.png)
+![](./static/PAC/xshell11.png)
 
 选择文件，新建
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell12.png)
+![](./static/PAC/xshell12.png)
 
 随便取个名字，然后把你的服务器ip填上
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell13.png)
+![](./static/PAC/xshell13.png)
 
 连接国外ip即服务器时，软件会先后提醒你输入用户名和密码，用户名默认都是root，密码是你购买的服务器系统的密码。
 
 **如果xshell连不上服务器，没有弹出让你输入用户名和密码的输入框，表明你开到的ip是一个被墙的ip，遇到这种情况，重新开新的服务器，直到能用xshell连上为止，耐心点哦！如果同一个地区开了多台服务器还是不行的话，可以换其它地区。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell14.png)
+![](./static/PAC/xshell14.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/xshell2.png)
+![](./static/PAC/ss/xshell2.png)
 
 连接成功后，会出现如上图所示，之后就可以复制粘贴代码部署了。
 
 **Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统 v2ray一键部署管理脚本**：
 
 安装命令：
-
+```
 source <(curl -sL https://multi.netlify.app/v2ray.sh) --zh
-
+```
 升级命令(保留配置文件更新)：
-
+```
 source <(curl -sL https://multi.netlify.app/v2ray.sh) -k
-
+```
 卸载命令：
-
+```
 source <(curl -sL https://multi.netlify.app/v2ray.sh) --remove
-
+```
 > 如果输入安装命令没反应，那是因为服务器系统没有自带curl命令，安装一下curl。CentOS系统安装curl命令:yum install -y curl   Debian/Ubuntu系统安装curl命令:apt-get install -y curl
 
 > 安装完成后，输入v2ray可进入管理页面。脚本来自[Jrohy/multi-v2ray](https://github.com/Jrohy/multi-v2ray)。
@@ -275,34 +275,34 @@ source <(curl -sL https://multi.netlify.app/v2ray.sh) --remove
 
 复制上面安装命令代码到VPS服务器里，复制代码用鼠标右键的复制，然后在vps里面右键粘贴进去，因为ctrl+c和ctrl+v无效。接着输入数字1来安装。安装完成后，如果想修改、查看配置等，可以输入v2ray进行管理页面，不用重复安装脚本。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/v2ray/v2ray-2-1.PNG)
+![](./static/PAC/v2ray/v2ray-2-1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/v2ray/v2ray-2-2.PNG)
+![](./static/PAC/v2ray/v2ray-2-2.png)
 
 安装速度很快，安装结束后默认有个kcp协议帐号，如果不想用kcp协议，可以输入v2ray管理页面来进行传输方式的更改。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/v2ray/v2ray-2-3.PNG)
+![](./static/PAC/v2ray/v2ray-2-3.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/v2ray/v2ray-2-4.PNG)
+![](./static/PAC/v2ray/v2ray-2-4.png)
 
 **如果选择的是CentOS系统，还需要关闭vps防火墙来开放端口，相关命令如下：**
 
-**查看防火墙状态命令**：firewall-cmd --state
+**查看防火墙状态命令**：`firewall-cmd --state`
 
-**停止firewall命令**：systemctl stop firewalld.service
+**停止firewall命令**：`systemctl stop firewalld.service`
 
-**禁止firewall开机启动命令**：systemctl disable firewalld.service
+**禁止firewall开机启动命令**：`systemctl disable firewalld.service`
 
 **注意：账号无法使用，可能原因：客户端与服务端的设备系统时间相差过大。解决方法如下：**
 
 **1、一般国外的VPS的镜像都是默认的国外时区，使用起来不是很方便。可以把它修改成北京时间，就会方便很多。**
 **修改中国时区代码如下**：
-
+```
 \cp -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
-
+```
 **2、利用NTP同步时间协议**
 
-**CentOS系统先安装NTP**：yum install ntp ntpdate -y
+**CentOS系统先安装NTP**：`yum install ntp ntpdate -y`
 
 > 如果是Ubuntu/Debian系统执行下面2条命令来安装NTP
 
@@ -311,13 +311,13 @@ source <(curl -sL https://multi.netlify.app/v2ray.sh) --remove
 > apt-get install ntp ntpdate -y  
 
 **安装NTP后，按照顺序依次执行以下3条命令，分别是停止NTP服务、同步NTP时间、启动NTP服务**：
-
+```
 service ntpd stop  
 
 ntpdate us.pool.ntp.org 
 
 service ntpd start 
-
+```
 **执行完成后，VPS上就是相对精确的时间设置了。很多依赖于系统时间的应用程序也就能正常工作了。注意：当vps重启后输入date来检查下时间，如果时间不是最新的，再执行以上3条命令即可。**
 
 > 除了通过NTP来同步时间以外，还可以手动修改vps系统时间，需要先修改中国时区，之后输入时间命令，格式（数字改为和自己电脑时间一致，误差30秒以内）：date -s "2020-2-02 19:14:00"
@@ -333,37 +333,37 @@ service ntpd start
 **（VLESS+TCP+TLS/VLESS+TCP+XTLS/VLESS+WS+TLS/VMess+TCP+TLS/VMess+WS+TLS/Trojan/Trojan-Go WS）+伪装站点、七合一共存脚本，支持多内核安装，支持系统Debian 8+ / Ubuntu 16.04+ / Centos7**
 
 ***
-
+```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
-
+```
 ***
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless1.PNG)
+![](./static/pac2/vless/vless1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless2.PNG)
+![](./static/pac2/vless/vless2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless3.PNG)
+![](./static/pac2/vless/vless3.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless4.PNG)
+![](./static/pac2/vless/vless4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless5.PNG)
+![](./static/pac2/vless/vless5.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless6.PNG)
+![](./static/pac2/vless/vless6.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vless/vless7.PNG)
+![](./static/pac2/vless/vless7.png)
 
 **第三步：一键加速VPS服务器**
 
 五合一的TCP网络加速脚本，包括了BBR原版、BBR魔改版、暴力BBR魔改版、BBR plus（首选）、Lotsever(锐速)安装脚本。可用于KVMXen架构，不兼容OpenVZ（OVZ）。支持Centos 6+ / Debian 7+ / Ubuntu 14+，BBR魔改版不支持Debian 8。
 
 ***
-
+```
 wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
 
 chmod +x tcp.sh
 
 ./tcp.sh
-
+```
 
 ***
 
@@ -371,24 +371,24 @@ chmod +x tcp.sh
 
 安装完成后，脚本管理命令为：./tcp.sh
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr1.jpg)
+![](./static/pac2/vultr/newbbr1.jpg)
 
 操作方法：先安装内核，重启vps让内核生效，再启动对应的加速即可。数字1的BBR/BBR魔改内核对应数字4、5、6的BBR加速、BBR魔改加速和暴力BBR魔改版加速。数字2的BBRplus内核对应数字7的BBRplus加速。数字3的锐速加速内核对应数字8的锐速加速。
 
 以安装暴力BBR魔改版加速为例，我们先安装对应的内核，输入数字1
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr2.jpg)
+![](./static/pac2/vultr/newbbr2.jpg)
 
 内核安装完成后，输入y进行重启，重启才能让内核生效
 
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr3.jpg)
+![](./static/pac2/vultr/newbbr3.jpg)
 
 重启完成后，输入数字6来启动暴力BBR魔改版加速
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr4.jpg)
+![](./static/pac2/vultr/newbbr4.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr5.jpg)
+![](./static/pac2/vultr/newbbr5.jpg)
 
 输入./tcp.sh查看最终是否启动成功。
 
@@ -396,23 +396,23 @@ chmod +x tcp.sh
 
 **注意：如果在安装内核环节出现这样一张图，注意选择NO**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/newbbr6.jpg)
+![](./static/pac2/vultr/newbbr6.jpg)
 
 ***
 
 【v2ray客户端下载及使用方法】
 
-**客户端使用教程：[v2ray各平台图文使用教程](https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%90%84%E5%B9%B3%E5%8F%B0%E5%9B%BE%E6%96%87%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)**
+**客户端使用教程：[v2ray各平台图文使用教程](./v2ray各平台图文使用教程.md)**
 
 浏览器代理设置成Socks(5) 127.0.0.1 和1080 即可通过v2ray代理上网。
 
 谷歌浏览器chrome可配合switchyomega插件来使用，下载插件：[switchyomega](https://github.com/atrandys/trojan/releases/download/1.0.0/SwitchyOmega_Chromium.crx)
 
 安装插件，打开chrome，打开扩展程序，将下载的插件拖动到扩展程序页面，添加到扩展。
-![20181116000534](https://user-images.githubusercontent.com/12132898/70548725-0461d000-1bae-11ea-9d1e-4577e36ac46e.png)
+![20181116000534](./static/70548725-0461d000-1bae-11ea-9d1e-4577e36ac46e.png)
 
 完成添加，会跳转到switchyomega页面，点跳过教程，然后点击proxy，如图填写，最后点击应用选项。
-![20181116001438](https://user-images.githubusercontent.com/12132898/70548727-04fa6680-1bae-11ea-99da-568af4fd6f5f.png)
+![20181116001438](./static/70548727-04fa6680-1bae-11ea-99da-568af4fd6f5f.png)
 
 
 ***
@@ -423,12 +423,12 @@ chmod +x tcp.sh
 
 **a、一般国外的VPS的镜像都是默认的国外时区，使用起来不是很方便。可以把它修改成北京时间，就会方便很多。**
 **修改中国时区代码如下**：
-
+```
 \cp -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
-
+```
 **b、利用NTP同步时间协议**
 
-**CentOS系统先安装NTP**：yum install ntp ntpdate -y
+**CentOS系统先安装NTP**：`yum install ntp ntpdate -y`
 
 > 如果是Ubuntu/Debian系统执行下面2条命令来安装NTP
 
@@ -437,13 +437,13 @@ chmod +x tcp.sh
 > apt-get install ntp ntpdate -y  
 
 **安装NTP后，按照顺序依次执行以下3条命令，分别是停止NTP服务、同步NTP时间、启动NTP服务**：
-
+```
 service ntpd stop  
 
 ntpdate us.pool.ntp.org 
 
 service ntpd start 
-
+```
 **执行完成后，VPS上就是相对精确的时间设置了。很多依赖于系统时间的应用程序也就能正常工作了。注意：当vps重启后输入date来检查下时间，如果时间不是最新的，再执行以上3条命令即可。**
 
 > 除了通过NTP来同步时间以外，还可以手动修改vps系统时间，需要先修改中国时区，之后输入时间命令，格式（数字改为和自己电脑时间一致，误差30秒以内）：date -s "2020-2-02 19:14:00"
@@ -452,11 +452,11 @@ service ntpd start
 
 关闭vps防火墙即可开放所有端口，本地电脑防火墙和杀毒软件手动关闭即可。
 
-查看防火墙状态命令：firewall-cmd --state  
+查看防火墙状态命令：`firewall-cmd --state`  
 
-停止firewall命令：systemctl stop firewalld.service
+停止firewall命令：`systemctl stop firewalld.service`
 
-禁止firewall开机启动命令：systemctl disable firewalld.service
+禁止firewall开机启动命令：`systemctl disable firewalld.service`
 
 
 **3、搭建的账号之前能用，突然不能用了，怎么解决？**

@@ -31,9 +31,9 @@ wireguard可以全局代理电脑所有软件，包括浏览器、游戏软件�
 
 VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，按小时计费，能够随时开通和删除服务器，新服务器即是新ip。
 
-vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
+vultr注册地址：[https://www.vultr.com/](https://www.vultr.com/) （vps最低2.5美元/月，vultr全球17个服务器位置可选，包括日本、韩国、新加坡、洛杉矶、德国、荷兰等。支持支付宝和paypal付款。） 
 
-<a href="https://www.vultr.com/?ref=7048874"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
+<a href="https://www.vultr.com/"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
 
 虽然是英文界面，但是现在的浏览器都有网页翻译功能，鼠标点击右键，选择网页翻译即可翻译成中文。
 
@@ -53,7 +53,7 @@ vultr注册地址：https://www.vultr.com/?ref=7048874 （vps最低2.5美元/月
 
 40美元/月的服务器配置信息： 4cpu   8G内存   160G SSD硬盘   带宽1G    4000G流量/月  
 
-**[vultr](https://www.vultr.com/?ref=7048874)17个服务器位置官方测试地址：**
+**[vultr](https://www.vultr.com/)17个服务器位置官方测试地址：**
 
 <table id="tablepress-1">
 <thead>
@@ -178,43 +178,43 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 **账号充值如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp100.png)
+![](./static/pac2/pp100.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/pp101.png)
+![](./static/pac2/pp101.png)
 
 
 **开通服务器步骤如图**：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr1.PNG)
+![](./static/pac2/vultr/vultr1.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr2.PNG)
+![](./static/pac2/vultr/vultr2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/master/vultr/vultr3.PNG)
+![](./static/pac2/vultr/vultr3.png)
 
 ### WireGuard VPN安装脚本仅支持Centos7或8!
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr4.PNG)
+![](./static/pac2/vultr/vultr4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr5.PNG)
+![](./static/pac2/vultr/vultr5.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/vultr/vultr6.PNG)
+![](./static/pac2/vultr/vultr6.png)
 
 
 **开通服务器时，当出现了ip，不要立马去ping或者用xshell去连接，再等5分钟之后，有个缓冲时间。完成购买后，找到系统的密码记下来，部署服务器时需要用到。vps系统（推荐centos6）的密码获取方法如下图：**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程05.png)
+![](./static/crp_up/pac教程05.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/crp_up/pac教程06.png)
+![](./static/crp_up/pac教程06.png)
 
 **删掉服务器步骤如下图**：
 
 删除服务器时，先开新的服务器后再删除旧服务器，这样可以保证新服务器的ip与旧ip不同。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de4.PNG)
+![](./static/PAC/ss/de4.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de2.PNG)
+![](./static/PAC/ss/de2.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/de5.png)
+![](./static/PAC/ss/de5.png)
 
 
 ***
@@ -229,7 +229,7 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 如果你是Mac苹果电脑操作系统，更简单，无需下载xshell，系统可以直接连接VPS。直接打开Terminal终端，输入：ssh root@43.45.43.21（将45.45.43.21换成你的IP），之后输入你的密码就可以登录了（输入密码的时候屏幕上不会有显示）
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/Mac.png)
+![](./static/pac2/Mac.png)
 
 如果不能用Mac自带的终端连接的话，直接网上搜“Mac连接SSH的软件”，有很多，然后通过软件来连接vps服务器就行，具体操作方式参考windows xshell。Mac成功连接vps后剩下的操作和windows一样。
 
@@ -239,23 +239,23 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 
 下载windows xshell软件并安装后，打开软件
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell11.png)
+![](./static/PAC/xshell11.png)
 
 选择文件，新建
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell12.png)
+![](./static/PAC/xshell12.png)
 
 随便取个名字，然后把你的服务器ip填上
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell13.png)
+![](./static/PAC/xshell13.png)
 
 连接国外ip即服务器时，软件会先后提醒你输入用户名和密码，用户名默认都是root，密码是你购买的服务器系统的密码。
 
 **如果xshell连不上服务器，没有弹出让你输入用户名和密码的输入框，表明你开到的ip是一个被墙的ip，遇到这种情况，重新开新的服务器，直到能用xshell连上为止，耐心点哦！如果同一个地区开了多台服务器还是不行的话，可以换其它地区。**
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/xshell14.png)
+![](./static/PAC/xshell14.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/PAC/ss/xshell2.png)
+![](./static/PAC/ss/xshell2.png)
 
 连接成功后，会出现如上图所示，之后就可以复制粘贴代码部署了。
 
@@ -264,51 +264,51 @@ vultr实际上是折算成小时来计费的，比如服务器是5美元1个月�
 **一键安装wirguard脚本代码（Centos7/Centos8）**：
 
 ***
-
+```
 curl -O https://raw.githubusercontent.com/atrandys/wireguard/master/wg_mult.sh && chmod +x wg_mult.sh && ./wg_mult.sh
-
+```
 ***
 
 复制上面整个代码到vps服务器中 。复制后如果不动按回车键。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire1.jpg)
+![](./static/pac2/wire/wire1.jpg)
 
 输入数字1进行安装，2是卸载。一键脚本会自动安装，一般几分钟就能安装好，很快。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire2.jpg)
+![](./static/pac2/wire/wire2.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire3.jpg)
+![](./static/pac2/wire/wire3.jpg)
 
 安装到这个界面就结束了。上述是二维码界面，不用管。鼠标往上滑动会看到这个提示，需要把 /etc/wireguard/client.conf文件下载到电脑上。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire4.jpg)
+![](./static/pac2/wire/wire4.jpg)
 
 有两种方法。一种是输入命令 cat /etc/wireguard/client.conf ，信息就会展示出来，如下来。然后复制（鼠标左键选中，右键选择复制），新建一个 client.conf 文件，把内容粘贴进去并保存即可。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire5.jpg)
+![](./static/pac2/wire/wire5.jpg)
 
 第二种方法是直接把这个文件下载下来。 先安装下载文件的命令：
 
 yum -y install lrzsz 
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire6.jpg)
+![](./static/pac2/wire/wire6.jpg)
 
 安装结束后输入如下命令就可以把client.conf文件下载到电脑上。
 
 sz /etc/wireguard/client.conf
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire7.PNG)
+![](./static/pac2/wire/wire7.png)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire8.jpg)
+![](./static/pac2/wire/wire8.jpg)
 
 这样，wireguard的账号配置信息就搭建好了。 接着下载安装TunSafe，这是wireguard windows版第三方开发软件，也可以去wireguard.com官网，下载官方的Windows版客户端，推荐用tunsafe。
 
 **增加wireguard多用户方法**：
 
 1、进入下载脚本的路径，然后使用以下命令打开脚本
-
-./wg_mult.sh
-
+    ```
+    ./wg_mult.sh
+    ```
 2、选择4 add user
 
 3、然后输入一个用户名，不要和之前的重复
@@ -321,37 +321,37 @@ sz /etc/wireguard/client.conf
 
 PC端：
 
-TunSafe 官网下载：https://tunsafe.com/download ，下载TunSafe-1.5-rc2.exe 文件大小：607k 国外网盘下载
+TunSafe 官网下载：[https://tunsafe.com/download](https://tunsafe.com/download) ，下载TunSafe-1.5-rc2.exe 文件大小：607k 国外网盘下载
 
 下载后双击安装。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire13.jpg)
+![](./static/pac2/wire/wire13.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire10.jpg)
+![](./static/pac2/wire/wire10.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire11.jpg)
+![](./static/pac2/wire/wire11.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire12.jpg)
+![](./static/pac2/wire/wire12.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire14.jpg)
+![](./static/pac2/wire/wire14.jpg)
 
 出现上述界面就安装好了，点击close关闭。
 
 打开TunSafe，选择File—Import File，把 client.conf文件 导入进去
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire15.jpg)
+![](./static/pac2/wire/wire15.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire16.jpg)
+![](./static/pac2/wire/wire16.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire17.jpg)
+![](./static/pac2/wire/wire17.jpg)
 
 导入client.conf文件后，点击Connect进行连接。出现如下标志就是连接成功啦。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire18.jpg)
+![](./static/pac2/wire/wire18.jpg)
 
 这个软件是全局代理软件，也就是电脑上所有的软件都被代理了，所以建议上外网网就专门上网，国内软件最好关闭。下图是网友在白天测试的YouTube速度图，晚上高峰期会慢一些， 供参考。国内各个地区封锁不同，效果肯定也会不同。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/test2.jpg)
+![](./static/pac2/wire/test2.jpg)
 
 以上就是windows系统使用账号的方法。
 
@@ -365,9 +365,9 @@ TunSafe尚没有针对Linux，OSX或FreeBSD的图形用户界面。但是，您�
 
 二维码生成方法：
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-erwei1.jpg)
+![](./static/pac2/wire/wire-erwei1.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-erwei2.jpg)
+![](./static/pac2/wire/wire-erwei2.jpg)
 
 
 安卓版：WireGuard_v0.0.20200206.xapk [国外云盘下载](https://tr61.free4444.xyz/WireGuard_v0.0.20200206.xapk)
@@ -375,21 +375,21 @@ TunSafe VPN_v1.0.apk [国外云盘下载](https://tr61.free4444.xyz/TunSafeVPN_v
 
 安卓版安卓wireguard后，选择右下角的+号按钮进行配置，可以选择第一个将配置文件导入进去，也可以选择第二个扫描二维码。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-an2.jpg)
+![](./static/pac2/wire/wire-an2.jpg)
 
-iOS用国外ID在国外商店搜索 tunsafe 或 wireguard 下载。[iOS注册美区Apple ID教程](https://github.com/Alvin9999/new-pac/wiki/iOS%E6%B3%A8%E5%86%8C%E7%BE%8E%E5%8C%BAApple-ID%E6%95%99%E7%A8%8B) 
+iOS用国外ID在国外商店搜索 tunsafe 或 wireguard 下载。[iOS注册美区Apple ID教程](./iOS注册美区Apple-ID教程.md) 
 
 iOS安装tunsafe后，打开配置设置。
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-ios1.jpg)
+![](./static/pac2/wire/wire-ios1.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-ios2.jpg)
+![](./static/pac2/wire/wire-ios2.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-ios3.jpg)
+![](./static/pac2/wire/wire-ios3.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-ios4.jpg)
+![](./static/pac2/wire/wire-ios4.jpg)
 
-![](https://cdn.jsdelivr.net/gh/Alvin9999/pac2/wire/wire-ios5.jpg)
+![](./static/pac2/wire/wire-ios5.jpg)
 
 同样可以选择第一个将文件导入进去，或者第二个扫描配置文件的二维码。
 

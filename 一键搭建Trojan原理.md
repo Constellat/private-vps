@@ -165,6 +165,8 @@ yum -y install  nginx wget unzip zip curl tar  #安装Nginx
 systemctl enable nginx   #设置Nginx开机启动
 ```
 配置 Nginx，找到路径`/etc/nginx/nginx.conf`替换以下代码
+- Nginx 不需要配置SSL文件，因为通过Trojan打过来的请求，都已经配置过SSL文件。
+- 直接访问80端口的Nginx，本身也是没有SSL的。
 ```
 user  root;
 worker_processes  1;

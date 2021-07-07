@@ -22,6 +22,7 @@ Trojan 手动搭建教程！Trojan 是最新的扶墙技术，它模仿了互联
 进入SSL证书页面点击申请免费证书，选择免费1年的亚洲诚信，输入你注册的域名和邮箱直接点击下一步。
 ![](./static/trojan/ssl1.jpg)
 ![](./static/trojan/ssl2.jpg)
+![](./static/trojan/ssl-download.png)
 
 如果你前面域名解析设置对了，这里直接会有自动 DNS 验证，点击确认申请。一般10分钟内就行。
 ![](./static/trojan/dns验证.jpg)

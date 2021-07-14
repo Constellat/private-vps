@@ -117,6 +117,7 @@ WantedBy=multi-user.target
 ```shell script
 systemctl restart trojan
 systemctl enable trojan
+systemctl status trojan
 ```
 有防火墙的开启防火墙的 443 和 80 端口
 ```shell script

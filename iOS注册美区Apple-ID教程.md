@@ -25,6 +25,21 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":5} -->
+<h5>Step0: 不用注册账号，直接修改账号的付款收货地址即可</h5>
+<!-- /wp:heading -->
+
+<!-- wp:list {"ordered":true} -->
+<ol>
+    <li>删除已有的国区地址</li>
+    <li>修改为网站生成的美国免税区地址</li>
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":5} -->
 <h5>Step1: 准备工作：翻墙（浏览器全局模式）</h5>
 <!-- /wp:heading -->
 

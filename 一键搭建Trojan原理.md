@@ -42,6 +42,8 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/trojan-gfw/trojan-q
 添加 SSL 证书。创建trojancert文件夹，并把上面准备好的`private.key`和`certificate.crt`文件放到trojancert文件夹
 ```shell script
 mkdir -p /usr/local/etc/trojancert   #创建trojancert文件夹
+cp /usr/local/etc/trojan/config.json /usr/local/etc/trojan/config.json.backup
+vim /usr/local/etc/trojan/config.json
 ```
 修改 Trojan 配置文件，主要是修改密码`password1`为你的密码，SSL 证书目录改为`/usr/local/etc/trojancert/`，修改后的配置文件如下：
 ```json
@@ -96,6 +98,7 @@ mkdir -p /usr/local/etc/trojancert   #创建trojancert文件夹
 ```
 创建 Trojan 自启服务
 - 在`/lib/systemd/system/`目录下创建`trojan.service`文件 ，并复制下面代码到文件中，保存。
+- `vim /lib/systemd/system/trojan.service`
 ```
 [Unit]  
 Description=trojan  
@@ -156,9 +159,9 @@ clash相关使用教程文档：
 ```shell script
 wget "https://github.com/cx9208/bbrplus/raw/master/ok_bbrplus_centos.sh" && chmod +x ok_bbrplus_centos.sh && ./ok_bbrplus_centos.sh
 ```
-重启后执行`uname-r`显示4.14.129-bbrplus则切换内核成功
+重启后执行`uname -r`显示4.14.129-bbrplus则切换内核成功
 
-执行`lsmod|grepbbr`显示有bbrplus则开启成功
+执行`lsmod | grep bbr`显示有bbrplus则开启成功
 
 ### 5、为 Trojan 配置伪装站点（可选）
 安装 Nginx
@@ -169,6 +172,8 @@ systemctl enable nginx   #设置Nginx开机启动
 配置 Nginx，找到路径`/etc/nginx/nginx.conf`替换以下代码
 - Nginx 不需要配置SSL文件，因为通过Trojan打过来的请求，都已经配置过SSL文件。
 - 直接访问80端口的Nginx，本身也是没有SSL的。
+- `cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup`
+- `vim /etc/nginx/nginx.conf`
 ```
 user  root;
 worker_processes  1;
@@ -205,7 +210,11 @@ wget https://github.com/V2RaySSR/Trojan/raw/master/web.zip
 unzip web.zip    #也可以上传自己的网站
 systemctl restart nginx.service
 ```
-访问 `https:// 你的域名`，如果能打开网站则配置成功。
+1. 访问 `http:// 你的域名`，如果能打开网站则配置成功。
+    - 注意防火墙是否已经关闭
+2. 访问 `https:// 你的域名`，如果能打开网站则配置成功。
+    - 访问成功确定证书配置正确
+    - 访问失败则可能证书配置错误
 ​
 ### 客户端配置使用
 下载客户端： `https://github.com/trojan-gfw/trojan/releases` (选择后缀是-win.zip或者-macos.zip的文件下载)

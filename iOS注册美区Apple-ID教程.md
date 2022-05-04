@@ -1,4 +1,4 @@
-**2020年3月14日发布 。 **
+**2020年3月14日发布 。**
 
 <hr class="wp-block-separator"/>
 **前言**：注册美区id成功后你可以下载很多的翻墙app， 一劳永逸 ， 虽然需要花费一些时间和精力来注册，但很值得。
@@ -21,7 +21,6 @@
 
 <hr class="wp-block-separator"/>
 <h5>Step2: 开始注册，创建ID</h5>
-
 1. safari打开 <a href="http://appleid.apple.com" target="_blank" rel="noreferrer noopener" aria-label="（在新窗口打开）">appleid.apple.com</a> （看一下网站右下角地区是否美国，不是则切换为美国）
 2. 选择，create a new apple id
 3. 按步骤填写信息，记住密码保护问题，下次登陆的时候可能要你回答

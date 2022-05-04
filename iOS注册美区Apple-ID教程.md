@@ -1,7 +1,7 @@
-**2020年3月14日发布 。**
+**2020年3月14日发布。**
 
 <hr class="wp-block-separator"/>
-**前言**：注册美区id成功后你可以下载很多的翻墙app， 一劳永逸 ， 虽然需要花费一些时间和精力来注册，但很值得。
+**前言 **：注册美区id成功后你可以下载很多的翻墙app， 一劳永逸 ， 虽然需要花费一些时间和精力来注册，但很值得。
 
 **注册网址**：<a href="http://appleid.apple.com ">appleid.apple.com </a>
 
@@ -30,7 +30,7 @@
 <hr class="wp-block-separator"/>
 <h5>Step 3: 完善账户信息</h5>
 1. safari打开 <a href="http://appleid.apple.com" target="_blank" rel="noreferrer noopener" aria-label="appleid.apple.com（在新窗口打开）">appleid.apple.com</a>，登陆上面创建成功的apple id。可能会问你密码保护问题
-2. 登陆以后，点击 **payment &amp; shipping**
+2. 登陆以后，点击 **payment &amp; shipping **
 
 - **Payment选择none**
 - 填写美国地址，到google map上搜一个真实地址，填上去就可以，也可以用这个 <a href="http://www.shenfendaquan.com/ " target="_blank" rel="noreferrer noopener" aria-label="http://www.shenfendaquan.com/ （在新窗口打开）">http://www.shenfendaquan.com/ </a>
@@ -47,14 +47,14 @@
 6. 大功告成！
 
 <hr class="wp-block-separator"/>
-**最后**：账号注册完了，如果遇到需要付钱的软件怎么办？在此补充一下。payment=none，是无法再绑定中国区信用卡/PayPal的。要下载收费app有两个办法：
+**最后 **：账号注册完了，如果遇到需要付钱的软件怎么办？在此补充一下。payment=none，是无法再绑定中国区信用卡/PayPal的。要下载收费app有两个办法：
 
 1/ 淘宝买美区gift card充值。
 
 2/ 找墙外的朋友代购，具体做法就是在app下载界面有gift app选项，让他付钱以后发送给你的apple id。你收到邮件点击下载链接就可以直接下载安装了。
 
 <hr class="wp-block-separator"/>
-**温馨提示：**
+**温馨提示： **
 
 碰到问题的朋友建议再重新试一遍，梳理一下操作逻辑。每一步操作的目的是什么先搞明白，再去分析可能是哪个环节出问题了。
 

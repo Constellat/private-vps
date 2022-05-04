@@ -206,7 +206,7 @@ http {
 ```shell script
 rm -rf /usr/share/nginx/html/*   #删除目录原有文件
 cd /usr/share/nginx/html/    #进入站点更目录
-wget https://github.com/V2RaySSR/Trojan/raw/master/web.zip
+wget https://github.com/Constellat/private-vps/raw/main/web.zip
 unzip web.zip    #也可以上传自己的网站
 systemctl restart nginx.service
 ```

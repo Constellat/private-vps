@@ -30,8 +30,9 @@
 
 <hr class="wp-block-separator"/>
 <h5>Step 3: 完善账户信息</h5>
+
 1. safari打开 <a href="http://appleid.apple.com" target="_blank" rel="noreferrer noopener" aria-label="appleid.apple.com（在新窗口打开）">appleid.apple.com</a>，登陆上面创建成功的apple id。可能会问你密码保护问题
-2. 登陆以后，点击 **payment &amp; shipping** 
+2. 登陆以后，点击 **payment &amp; shipping**
 
 - **Payment选择none**
 - 填写美国地址，到google map上搜一个真实地址，填上去就可以，也可以用这个 <a href="http://www.shenfendaquan.com/ " target="_blank" rel="noreferrer noopener" aria-label="http://www.shenfendaquan.com/ （在新窗口打开）">http://www.shenfendaquan.com/ </a>

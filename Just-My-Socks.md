@@ -1,4 +1,4 @@
-<h1>Just My Socks：搬瓦工官方翻墙服务，多条线路，IP不怕被墙</h1>
+# Just My Socks：搬瓦工官方翻墙服务，多条线路，IP不怕被墙
 
 如果无法查看教程中的图片，可访问https://tr1.freeair888.club/just-my-socks
 
